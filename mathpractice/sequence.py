@@ -19,7 +19,7 @@ def set_first_dic(fname):
 def load_dic():
     """Loads the pickle dic from a file.
     """
-    return pickle.load( open( "d_d.pkl", "rb" ) )
+    return pickle.load(open("d_d.pkl", "rb"))
 
 
 def save_new_dic(dic, name):
@@ -28,7 +28,7 @@ def save_new_dic(dic, name):
     """
     keys_dic = load_dic()
     keys_dic[name] = dic
-    pickle.dump( keys_dic, open( "d_d.pkl", "wb" ) )
+    pickle.dump(keys_dic, open("d_d.pkl", "wb"))
 
 
 def set_num_sequence(length, s_range):
@@ -70,7 +70,6 @@ def check_answer(sequence, answer):
     return False
 
 
-
 def _doctest():
     import doctest
     random.seed(0)
@@ -84,7 +83,7 @@ def main():
     # https://docs.python.org/3.3/howto/argparse.html
     parser.add_argument('-t', '--test', help='run tests', action="store_true")
     parser.add_argument('-n', '--number', help='a number', type=int)
-    #parser.add_argument('astring', help='a positional (mandatory) argument')
+    # parser.add_argument('astring', help='a positional (mandatory) argument')
     args = parser.parse_args()
     if args.test:
         _doctest()

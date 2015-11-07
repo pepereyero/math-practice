@@ -17,8 +17,8 @@ setup(name='mathpractice',
       author_email='josepr@gmail.com',
       url='http://example.com/pysample/',
       packages=find_packages('.', exclude=['*.test']),
-      #entry_points={'console_scripts': ['pysample = pysample.sample:main']},
-      #package_data={'pysample': ['res/diagonal.npy', 'res/*.txt']},
+      # entry_points={'console_scripts': ['pysample = pysample.sample:main']},
+      # package_data={'pysample': ['res/diagonal.npy', 'res/*.txt']},
       install_requires=['numpy>=1.9.0', 'sympy'],
 
       # Classifiers: https://pypi.python.org/pypi?%3Aaction=list_classifiers
