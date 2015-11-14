@@ -10,3 +10,4 @@ guessed/*
 TAGS
 .cache
 __pycache__
+*.pkl

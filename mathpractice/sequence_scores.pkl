@@ -1,9 +1,0 @@
-(dp0
-S'last score'
-p1
-(lp2
-I4
-a(I1
-I10
-tp3
-aNas.
