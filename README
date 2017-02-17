@@ -1,6 +1,6 @@
-mathpractice
+Mathpractice:
 
-Python program for math practice.  Includes sequence memorization.
+This program will offer the user a choice of math questions, such as simple first order equations, second order equations, fractions, basic arithmetic questions, as well as sequence memorization. There will be levels for each one of the types of questions, and the user will get to the next level by doing 5 questions correctly in a row.
 
 
 :copyright: 2015 Pepe Reyero
